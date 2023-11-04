@@ -1,0 +1,574 @@
+@import url("https://fonts.googleapis.com/css2?family=Comme&family=Montserrat:wght@400;500;600;900&family=Poppins:wght@300;400;500;600;700&family=Ubuntu&display=swap");
+
+.brand-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flexbox;
+    text-align: center;
+    background-color:rgb(224, 224, 224);
+    padding: 3% 5%;
+    margin-bottom: -5%;
+   
+
+
+}
+
+.band-logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.custom-dropdown-menu {
+    width: 220px;
+    height: 370px;
+
+}
+
+.dropdown-item {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    line-height: 2rem;
+    white-space: pre-wrap;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 7.5rem;
+    line-height: 3.5rem;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.logo {
+    height: 2rem;
+    margin: 0 10px;
+}
+
+.logo-image {
+    height: 55px;
+    position: relative;
+    left: 400px;
+
+}
+
+.name {
+    font-family: "Poppins";
+    font-size: 3.5rem;
+    position: relative;
+    display: flexbox;
+    color: black;
+}
+
+.navbar {
+    background-color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar-nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+    background-color: transparent;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 200px;
+
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: rgba(23, 23, 23, 0.99);
+    border-top: 5px solid rgb(36, 148, 239);
+    border-radius: 0%;
+    padding: 25%;
+}
+
+.nav-item.dropdown:hover .dropdown-menu a {
+    color: rgb(255, 255, 255);
+}
+
+.nav-item.dropdown:hover .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(23, 23, 23, 0.99);
+    color:aqua;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255%2C%20255%2C%20255%2C%201%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 20px;
+    height: 20px;
+}
+
+.text-heading {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    position: relative;
+    color: #fff;
+    letter-spacing: -1px;
+    padding-top: 15%;
+    margin-left: 18%;
+    
+}
+
+.text-title {
+    font-family: "Montserrat";
+    position: relative;
+    color: #fff;
+    letter-spacing: -1px;
+    margin-left: 18%;
+   
+}
+
+.title-text {
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    margin-left: 9.5%;
+    padding-top: 0.5rem;
+}
+
+.warikoo-image {
+    width: 100%;
+    position: absolute;
+    
+    filter:brightness(80%)
+}
+
+#top-container {
+    height: 100vh;
+    width: 100%;
+}
+
+#element-introduction {
+    position: relative;
+    text-align: center;
+}
+
+#page-container {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    ;
+    
+
+}
+
+.profile-info {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 1.7rem;
+    padding: 0% 20%;
+    color: rgb(0, 0, 0);
+}
+
+.signature{
+    height: 150px;
+}
+
+.career-box{
+    font-family: "Poppins",sans-serif;
+    font-size: 1rem;
+    padding: 4% 5%;
+    text-align:center;
+   
+}
+.field{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.icons{
+    height: 45px ;
+    margin-bottom: 5%;
+}
+
+#middle-container{
+    padding: 10% 16%;
+    text-align: center;
+}
+
+.social-media{
+    height: 400px;
+    background-color: #0c4bf8f7;
+    margin-top: -10%;
+    margin-bottom: 40%;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: center;
+
+}
+
+.title-element{
+    font-family: "Poppins";
+    color: #fff;
+    font-size:2.5rem;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.social-media-icons{
+    display: inline-block;
+    padding: 5%;
+    margin: 0% -4%;
+    margin-bottom: 5%;
+
+}
+
+.media-headings{
+    padding: 10%;
+    color: #fff;
+    font-weight: 800;
+
+}
+
+.media-link{
+    color: transparent;
+    
+}
+.courses{
+    text-align: center;
+    padding-bottom: 50%;
+    color: #000000;
+    font-family: "Poppins";
+    font-size:2.5rem;
+    height: 100%;
+   
+}
+
+.section-courses{
+    font-family: "Poppins";
+    font-size:4rem;
+    color: rgb(68, 68, 68);
+}
+
+.description{
+    font-size: 1rem;
+    padding-top: 2%;
+    margin: 0% 30%;
+}
+
+                   /*Card-Animation*/
+
+
+.container {
+    position: relative;
+    margin-bottom: 20%;
+    display: flex;
+    gap: 0% 5%;
+    justify-content: center;
+    padding-top: 5%;
+    height: 100%;
+    
+}
+
+.container .card {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    height: 350px;
+    background: rgb(233, 247, 252);
+    border-radius: 30px;
+    transition: 0.4s;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.15);
+}
+
+.container .card:hover {
+    height: 450px;
+    cursor: pointer;
+}
+.img-box{
+    height: 150px;
+}
+
+.container .card .img-box {
+    position: relative;
+    margin: 4%;
+    background: #333;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.container .card:hover .img-box {
+    top: -80px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .img-box img {
+    position: relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%; 
+}
+
+.container .card .content {
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.25s;
+}
+
+.container .card:hover .content {
+    top: -100px;
+    height: 400px;
+}
+
+ .course-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: rgb(0, 128, 255);
+   
+    
+}
+
+.card .course-duration{
+    visibility: visible;
+    text-align: left;
+    padding: 2% 0% 0% 2%;
+
+}
+
+.card:hover .course-duration{
+    visibility: hidden;
+}
+
+.card p {
+    visibility: hidden;
+}
+  
+  .card:hover p {
+    visibility: visible;
+}
+  
+.container .card .content p {
+    color: #333;
+    font-family: "Poppins";
+    font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+    .container .card {
+       
+        border-radius: 15px;
+    }
+
+    .container .card .img-box {
+        width: 185px;
+        border-radius: 10px;
+    }
+
+    .container .card .content p {
+        font-size: 0.8rem;
+    }
+
+    .container .card .content a {
+        font-size: 0.9rem;
+    }
+}
+
+.section-books{
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    font-weight: 300;
+    color: black;
+    margin:0% 20%;
+   
+} 
+
+.book-info{
+    text-align: left;
+}
+
+.book-image{
+    height: 500px;
+    float: left;
+}
+.book-name{
+    font-size: 3rem;
+    font-family: "Poppins";
+    text-align: left;
+    color: #464646;
+    font-weight:600;
+}
+
+.strong{
+    font-weight: 900;
+    text-align: left;
+}
+
+.book-description{
+    text-align: left;
+}
+
+.yellow-book{
+    padding-top: 10%;
+}
+
+.red-book{
+   
+    margin: 0% 5%;
+    padding-top: 10%;
+    text-align: left;
+}
+
+.red-image{
+    height: 500px;
+    float: right;
+
+}
+
+.Warikoo_Logo_Black_Vector{
+    height: 100px;
+
+}
+
+.btn{
+    padding: 2%;
+
+}
+.button-section{
+    padding: 2%;
+    margin-left: -2%;
+    display: relative;
+    margin-right: 33%;
+
+}
+
+.bottom-container{
+    margin-bottom: 40%;
+    padding-top: 80%;
+    justify-content: center;
+}
+#blogs{
+  height: 400px;
+    background-color: #0c4bf8f7;
+    margin-top: -8%;
+    padding-top: 7%;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: center;
+    
+}   
+.carousel-inner{
+    margin: -2%;
+    padding: 1%;
+
+}
+.dates{
+  color:rgb(162, 160, 160);
+  font-weight: 500;
+  line-height: 3.5rem;
+  font-size: 1.2rem;
+}
+
+.connected{
+    text-align: center;
+    justify-content: center;
+    padding: 5%;
+    
+}
+
+.connections{
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-family: "Poppins";
+    color: #3c3b3b;
+}
+
+.frames{
+    height: 500px;
+}
+
+.break-line{
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 1rem;
+    padding-top: 2%;
+}
+
+.self-note{
+    font-size: 1rem;
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 300;
+    
+}
+.form-button{
+    margin: 3% 3% 5% 0;
+    padding: 1%;
+    border-radius: 13%;
+}
+
+.email-button{
+    margin: 3% 3% 5% 0;
+    padding: 1%;
+    color: black;
+    border-radius: 13%;
+}
+.last-container{
+    font-family: "Poppins", sans-serif;
+    
+}
+.more{
+    background-color: #262626;
+    height: 400px;
+    margin-top: -45%;
+    padding: 0%;
+    width: 100%;
+}
+.sign{
+    margin-top: 10%;
+    margin-left: 20%;
+    height: 150px;
+}
+.random{
+    color: #fff;
+    padding-top: 15%;
+    
+}
+.random .list:hover{
+    color: #8d98fd;
+}
+.final{
+    text-align: center;
+    background-color: #2a2a2a;
+    height: 100%;
+}
+.finale{
+    color: #838383;
+    font-size: 1rem;
+}
+
+
